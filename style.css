@@ -1,0 +1,89 @@
+table{
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 3em Arial, Helvetica, sans-serif;
+}
+
+tr{
+    height: 16.02vh;
+    background-color: #5f485b;
+}
+
+td{
+    width: 25vw;
+    border: 1px solid #5f485b;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+td:hover {
+    background-color: #7a5c74; /* slightly lighter shade */
+}
+
+#inputBox{
+    background-color: #2d1e2e;
+    text-align: right;
+    width: 100%;
+    font-size: 2.5em;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/*Digit Buttons*/
+.digitButton{
+    background-color: #5f485b;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.digitButton:hover{
+    background-color: #7a5c74;
+}
+
+/*Operatror Buttons*/
+.operatorButton{
+    background-color: #8b5e83;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-weight: bold;
+}
+
+.operatorButton:hover{
+    background-color: #a3749b;
+}
+
+/*AC Button*/
+.ACbutton{
+    background-color: #b50b74;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-weight: bold;
+}
+
+.ACbutton:hover{
+    background-color: #d45c5c;
+}
+
+/*For Fun*/
+.title{
+    text-align: center;
+    color: #f4eef1;
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*For a stylish Look*/
+body{
+    background: linear-gradient(to right, #3f2b3b, #5f485b);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
